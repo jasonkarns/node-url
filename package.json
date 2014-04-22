@@ -21,7 +21,8 @@
     "url": "https://github.com/defunctzombie/node-url.git"
   },
   "testling": {
-    "files": "test/*.js",
+    "files": "test.js",
+    "harness": "mocha",
     "browsers": [
       "ie/8..latest",
       "firefox/15",
