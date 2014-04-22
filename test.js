@@ -19,13 +19,14 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-var assert = require('assert');
+//var assert = require('assert');
+var test = require('tape');
 var objectKeys = require('object-keys');
 var forEach = require('foreach');
 
 var url = require('./url');
 
-test('god', function() {
+test('god', function(assert) {
 
 // URLs to parse, and expected data
 // { url : parsed }
@@ -1461,4 +1462,5 @@ forEach(relativeTests2, function(relativeTest) {
                '\nactual:' + actual);
 });
 
+assert.end();
 });
