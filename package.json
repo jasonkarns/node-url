@@ -1,6 +1,6 @@
 {
   "name": "url-es3",
-  "description": "The core `url` packaged standalone for use with Browserify.",
+  "description": "The core `url` packaged standalone for use with Browserify. (with ES3 support)",
   "version": "0.10.3",
   "dependencies": {
     "indexof": "0.0.1",
