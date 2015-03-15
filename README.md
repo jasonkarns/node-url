@@ -6,7 +6,7 @@ The upstream module itself is a [Browserify](http://browserify.org/) stand-in fo
 
 ## API
 
-See [upstream module](https://github.com/defunctzombie/node-url) and [node builtin](https://nodejs.org/api/url.html).
+See the docs for the [upstream npm module](https://www.npmjs.com/package/url) or [node built-in](https://nodejs.org/api/url.html).
 
 ## Installation
 
