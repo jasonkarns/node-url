@@ -12,19 +12,21 @@ Install as a development dependency alongside browserify itself. And then config
 This enables your code to use the node built-in `url` when running on node, but Browserify will substitute `url-es3` when running in the browser.
 
 1. Install as dev dependency
-``` shell
+    ``` shell
     npm install --save-dev url-es3
-```
+    ```
+    
 2. Configure browserify substitution in `package.json`
-``` json
+    ``` json
     browser: {
       "url": "url-es3"
     }
-```
+    ```
+    
 3. Require as `url`
-``` javascript
+    ``` javascript
     var url = require('url');
-```
+    ```
 
 ### Option B - for browser only (or intending to use url-es3 directly)
 
@@ -32,6 +34,7 @@ This enables your code to use the node built-in `url` when running on node, but 
     ```` shell
     npm install --save url-es3
     ````
+
 2. Require directly
     ```` javascript
     var url = require('url-es3');
