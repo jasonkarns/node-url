@@ -4,6 +4,10 @@ This module is a fork of [defunctzombie/node-url](https://github.com/defunctzomb
 
 The upstream module itself is a [Browserify](http://browserify.org/) stand-in for the [node built-in `url`](https://nodejs.org/api/url.html).
 
+## API
+
+See [upstream module](https://github.com/defunctzombie/node-url) and [node builtin](https://nodejs.org/api/url.html).
+
 ## Installation
 
 ### Option A - for node + browser support
@@ -39,7 +43,3 @@ This enables your code to use the node built-in `url` when running on node, but 
     ```` javascript
     var url = require('url-es3');
     ````
-## API
-
-See [upstream module](https://github.com/defunctzombie/node-url) and [node builtin](https://nodejs.org/api/url.html).
-
